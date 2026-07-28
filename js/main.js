@@ -127,9 +127,20 @@
 
   // Scroll reveals
   const revealNodes = document.querySelectorAll(
-    ".offer__copy, .deal-card, .product-card, .why-grid li, .steps li, .proof-marquee, .finale__panel"
+    ".offer__copy, .deal-card, .product-card, .why-grid li, .steps li, .proof-marquee, .faq-item, .finale__panel"
   );
   revealNodes.forEach((el) => el.classList.add("reveal"));
+
+  // FAQ: keep one item open at a time
+  const faqItems = document.querySelectorAll(".faq-item");
+  faqItems.forEach((item) => {
+    item.addEventListener("toggle", () => {
+      if (!item.open) return;
+      faqItems.forEach((other) => {
+        if (other !== item) other.open = false;
+      });
+    });
+  });
 
   if ("IntersectionObserver" in window) {
     const io = new IntersectionObserver(
