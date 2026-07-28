@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riversol Summer Sale | Up to 30% Off</title>
+    <meta
+      name="description"
+      content="Summer Sale: up to 30% off dermatologist-developed Riversol skincare for sensitive skin."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#shop">Skip to sale products</a>
+
+    <div class="announcement" data-announcement role="status">
+      <p>
+        <svg class="icon icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" />
+          <polyline points="12 6 12 12 16 14" />
+        </svg>
+        Summer Sale ends in
+        <span class="countdown" id="countdown" aria-live="polite">
+          <span data-unit="days">--</span><small>d</small>
+          <span data-unit="hours">--</span><small>h</small>
+          <span data-unit="mins">--</span><small>m</small>
+          <span data-unit="secs">--</span><small>s</small>
+        </span>
+        <span class="announcement__sep" aria-hidden="true">·</span>
+        <svg class="icon icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="1" y="3" width="15" height="13" />
+          <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+          <circle cx="5.5" cy="18.5" r="2.5" />
+          <circle cx="18.5" cy="18.5" r="2.5" />
+        </svg>
+        Free shipping $69+
+      </p>
+    </div>
+
+    <header class="site-header" data-header>
+      <div class="site-header__inner">
+        <a class="logo" href="#top" aria-label="Riversol home">Riversol</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#shop">Sale</a>
+          <a href="#why">Why Riversol</a>
+          <a href="#routine">Routine</a>
+        </nav>
+        <a class="btn btn--header" href="#shop">Shop</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-brand">
+        <div class="hero__bg" aria-hidden="true"></div>
+
+        <div class="section-inner hero__grid">
+          <div class="hero__copy">
+            <p class="hero__eyebrow">Summer Sale</p>
+            <h1 id="hero-brand" class="hero__brand">Riversol</h1>
+            <p class="hero__headline">Up to <span class="sale-highlight">30% off</span>.</p>
+            <p class="hero__sub">
+              Dermatologist-developed care for sensitive skin.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--hero" href="#shop">
+                <svg class="icon icon--btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                  <line x1="3" y1="6" x2="21" y2="6" />
+                  <path d="M16 10a4 4 0 0 1-8 0" />
+                </svg>
+                Shop sale
+              </a>
+              <a class="hero__text-link" href="#offer">See offer</a>
+            </div>
+            <ul class="hero__trust">
+              <li>
+                <svg class="icon icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Dermatologist developed
+              </li>
+              <li>
+                <svg class="icon icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Fragrance-free
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__visual">
+            <div class="hero__frame">
+              <img
+                class="hero__image"
+                src="assets/hero-water.jpg"
+                alt=""
+                width="1024"
+                height="576"
+                decoding="sync"
+                fetchpriority="high"
+              />
+              <div class="hero__product">
+                <img src="assets/product.png" alt="Riversol product" width="1500" height="1496" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer" id="offer" aria-labelledby="offer-title">
+        <div class="section-inner offer__grid">
+          <div class="offer__copy">
+            <p class="eyebrow">Offer</p>
+            <h2 id="offer-title">Save on what summer asks of skin.</h2>
+            <p>Mineral SPF and restorative care — for a limited time.</p>
+            <ul class="perk-row">
+              <li>
+                <span class="icon-wrap" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+                    <line x1="7" y1="7" x2="7.01" y2="7" />
+                  </svg>
+                </span>
+                <div>
+                  <strong>Up to 30% off</strong>
+                  <span>Bestsellers</span>
+                </div>
+              </li>
+              <li>
+                <span class="icon-wrap" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 12 20 22 4 22 4 12" />
+                    <rect x="2" y="7" width="20" height="5" />
+                    <line x1="12" y1="22" x2="12" y2="7" />
+                    <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z" />
+                    <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z" />
+                  </svg>
+                </span>
+                <div>
+                  <strong>Free gift set</strong>
+                  <span>Orders $119+</span>
+                </div>
+              </li>
+              <li>
+                <span class="icon-wrap" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="1" y="3" width="15" height="13" />
+                    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+                    <circle cx="5.5" cy="18.5" r="2.5" />
+                    <circle cx="18.5" cy="18.5" r="2.5" />
+                  </svg>
+                </span>
+                <div>
+                  <strong>Free shipping</strong>
+                  <span>Orders $69+</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <aside class="deal-card" aria-label="Featured sale product">
+            <div class="deal-card__media">
+              <img src="assets/product.png" alt="" width="1500" height="1496" />
+            </div>
+            <div class="deal-card__body">
+              <p class="deal-card__save">Save $15</p>
+              <h3>Daily Glow Mineral Sunscreen SPF 50+</h3>
+              <p class="deal-card__meta">
+                <span>
+                  <svg class="icon icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  100% mineral
+                </span>
+                <span>
+                  <svg class="icon icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  No white cast
+                </span>
+              </p>
+              <p class="deal-card__price">
+                <span class="price--sale">$34</span>
+                <span class="price--was">$49</span>
+              </p>
+              <button class="btn btn--dark" type="button" data-add data-name="Daily Glow SPF 50+">
+                <svg class="icon icon--btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                  <line x1="3" y1="6" x2="21" y2="6" />
+                  <path d="M16 10a4 4 0 0 1-8 0" />
+                </svg>
+                Add to bag
+              </button>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="products" id="shop" aria-labelledby="shop-title">
+        <div class="section-inner">
+          <header class="section-head">
+            <p class="eyebrow">Shop</p>
+            <h2 id="shop-title">Bestsellers, on sale.</h2>
+          </header>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-card__media">
+                <span class="product-card__badge">Save $15</span>
+                <img src="assets/product.png" alt="" width="1500" height="1496" />
+              </div>
+              <div class="product-card__body">
+                <h3>Daily Glow Mineral Sunscreen SPF 50+</h3>
+                <p>Lightweight mineral SPF.</p>
+                <div class="product-card__row">
+                  <p class="product-card__price">
+                    <span class="price--sale">$34</span>
+                    <span class="price--was">$49</span>
+                  </p>
+                  <button class="btn btn--compact" type="button" data-add data-name="Daily Glow SPF 50+">
+                    <svg class="icon icon--btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                    Add to bag
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-card__media">
+                <span class="product-card__badge">Save $15</span>
+                <img src="assets/product.png" alt="" width="1500" height="1496" />
+              </div>
+              <div class="product-card__body">
+                <h3>Daily Moisturizing Cream</h3>
+                <p>Fast, calm hydration.</p>
+                <div class="product-card__row">
+                  <p class="product-card__price">
+                    <span class="price--sale">$45</span>
+                    <span class="price--was">$60</span>
+                  </p>
+                  <button class="btn btn--compact" type="button" data-add data-name="Daily Moisturizing Cream">
+                    <svg class="icon icon--btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                    Add to bag
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-card__media">
+                <span class="product-card__badge">Save $16</span>
+                <img src="assets/product.png" alt="" width="1500" height="1496" />
+              </div>
+              <div class="product-card__body">
+                <h3>Anti-Aging Serum</h3>
+                <p>Brightens and refines.</p>
+                <div class="product-card__row">
+                  <p class="product-card__price">
+                    <span class="price--sale">$64</span>
+                    <span class="price--was">$80</span>
+                  </p>
+                  <button class="btn btn--compact" type="button" data-add data-name="Anti-Aging Serum">
+                    <svg class="icon icon--btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                    Add to bag
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-card__media">
+                <span class="product-card__badge">Best value</span>
+                <img src="assets/product.png" alt="" width="1500" height="1496" />
+              </div>
+              <div class="product-card__body">
+                <h3>Anti-Aging Trio Bundle</h3>
+                <p>Serum, cream, and eye repair.</p>
+                <div class="product-card__row">
+                  <p class="product-card__price">
+                    <span class="price--sale">$129</span>
+                    <span class="price--was">$175</span>
+                  </p>
+                  <button class="btn btn--compact" type="button" data-add data-name="Anti-Aging Trio">
+                    <svg class="icon icon--btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                    Add to bag
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <p class="shop-note">
+            <svg class="icon icon--inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="20 12 20 22 4 22 4 12" />
+              <rect x="2" y="7" width="20" height="5" />
+              <line x1="12" y1="22" x2="12" y2="7" />
+              <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z" />
+              <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z" />
+            </svg>
+            Orders $119+ get a free gift.
+            <a href="https://www.riversol.com/" target="_blank" rel="noopener">Details</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="why" id="why" aria-labelledby="why-title">
+        <div class="section-inner">
+          <header class="section-head section-head--light section-head--center">
+            <p class="eyebrow">Why</p>
+            <h2 id="why-title">Made for sensitive skin.</h2>
+            <p>By dermatologist Dr. Jason Rivers.</p>
+          </header>
+
+          <ul class="why-grid">
+            <li>
+              <span class="icon-wrap icon-wrap--light" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                </svg>
+              </span>
+              <strong>Dermatologist developed</strong>
+              <p>Reviewed by Dr. Rivers.</p>
+            </li>
+            <li>
+              <span class="icon-wrap icon-wrap--light" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  <path d="M9 12l2 2 4-4" />
+                </svg>
+              </span>
+              <strong>Low-irritant</strong>
+              <p>Fragrance-free and gentle.</p>
+            </li>
+            <li>
+              <span class="icon-wrap icon-wrap--light" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="5" />
+                  <line x1="12" y1="1" x2="12" y2="3" />
+                  <line x1="12" y1="21" x2="12" y2="23" />
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                  <line x1="1" y1="12" x2="3" y2="12" />
+                  <line x1="21" y1="12" x2="23" y2="12" />
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </svg>
+              </span>
+              <strong>Summer-ready</strong>
+              <p>SPF that layers cleanly.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="routine" id="routine" aria-labelledby="routine-title">
+        <div class="section-inner">
+          <header class="section-head section-head--center">
+            <p class="eyebrow">Routine</p>
+            <h2 id="routine-title">Three steps.</h2>
+            <p>Cleanse. Treat. Protect.</p>
+          </header>
+
+          <ol class="steps">
+            <li>
+              <span class="icon-wrap" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+                </svg>
+              </span>
+              <span class="steps__num">01</span>
+              <h3>Cleanse</h3>
+              <p>Hydrating Cream Cleanser.</p>
+            </li>
+            <li>
+              <span class="icon-wrap" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 3l1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3z" />
+                  <path d="M5 19l1 3 1-3 3-1-3-1-1-3-1 3-3 1 3 1z" />
+                  <path d="M19 14l.5 1.5L21 16l-1.5.5L19 18l-.5-1.5L17 16l1.5-.5L19 14z" />
+                </svg>
+              </span>
+              <span class="steps__num">02</span>
+              <h3>Treat</h3>
+              <p>Anti-Aging Serum.</p>
+            </li>
+            <li>
+              <span class="icon-wrap" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </span>
+              <span class="steps__num">03</span>
+              <h3>Protect</h3>
+              <p>Daily Glow SPF 50+.</p>
+            </li>
+          </ol>
+
+          <div class="routine__cta">
+            <a class="btn btn--primary" href="#shop">Shop routine</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof" aria-labelledby="proof-title">
+        <div class="section-inner">
+          <header class="section-head section-head--center">
+            <p class="eyebrow">Reviews</p>
+            <h2 id="proof-title">Loved by sensitive skin.</h2>
+          </header>
+
+          <div class="proof-grid">
+            <figure>
+              <div class="stars" aria-label="5 out of 5 stars">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <blockquote>
+                “An SPF that doesn’t sting or leave a cast.”
+              </blockquote>
+              <figcaption>Ava M. · Daily Glow SPF 50+</figcaption>
+            </figure>
+            <figure>
+              <div class="stars" aria-label="5 out of 5 stars">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <blockquote>
+                “My redness calmed within weeks.”
+              </blockquote>
+              <figcaption>Jordan K. · Anti-Aging Serum</figcaption>
+            </figure>
+            <figure>
+              <div class="stars" aria-label="5 out of 5 stars">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <blockquote>
+                “Clinic-level care. No complicated routine.”
+              </blockquote>
+              <figcaption>Sam R. · Anti-Aging Trio</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="finale" aria-labelledby="final-title">
+        <div class="section-inner">
+          <div class="finale__panel">
+            <p class="eyebrow">Ends soon</p>
+            <h2 id="final-title">Shop before prices return.</h2>
+            <p>Free shipping $69+. Free gift $119+.</p>
+            <a class="btn btn--primary btn--large" href="#shop">Shop sale</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-inner footer__row">
+        <div>
+          <p class="logo">Riversol</p>
+          <p class="footer__tag">Dermatologist-developed for sensitive skin.</p>
+        </div>
+        <div class="footer__links">
+          <a href="https://www.riversol.com/" target="_blank" rel="noopener">Official store</a>
+          <a href="https://www.riversol.com/collections/all" target="_blank" rel="noopener">All products</a>
+          <a href="https://www.riversol.com/pages/about" target="_blank" rel="noopener">About Dr. Rivers</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-cta" data-mobile-cta hidden>
+      <div class="mobile-cta__copy">
+        <strong>Summer Sale</strong>
+        <span>Up to 30% off</span>
+      </div>
+      <a class="btn btn--primary btn--compact" href="#shop">Shop now</a>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
