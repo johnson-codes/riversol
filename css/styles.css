@@ -600,33 +600,8 @@ blockquote {
   height: 100%;
   min-height: clamp(280px, 52vw, 460px);
   object-fit: cover;
-  object-position: center 45%;
+  object-position: center;
   display: block;
-}
-
-.hero__product {
-  position: absolute;
-  right: 6%;
-  bottom: 6%;
-  width: min(42%, 190px);
-  filter: drop-shadow(0 18px 28px rgba(13, 42, 50, 0.22));
-  animation: productFloat 6.5s ease-in-out infinite;
-}
-
-.hero__product img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-@keyframes productFloat {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
 }
 
 @keyframes riseIn {
