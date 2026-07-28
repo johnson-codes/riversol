@@ -458,7 +458,7 @@ blockquote {
   padding:
     calc(var(--announce-h) + var(--header-h) + 1.5rem)
     0
-    clamp(2.5rem, 6vw, 4rem);
+    clamp(4rem, 9vw, 6rem);
 }
 
 .hero__bg {
@@ -483,6 +483,48 @@ blockquote {
     rgba(220, 238, 244, 0.25) 100%
   );
   pointer-events: none;
+}
+
+.hero__wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: clamp(56px, 8vw, 96px);
+  z-index: 2;
+  color: #f4fafb;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.hero__wave-layer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200%;
+  height: 100%;
+  display: block;
+  will-change: transform;
+}
+
+.hero__wave-layer--back {
+  color: rgba(224, 247, 250, 0.85);
+  animation: waveDrift 14s linear infinite;
+}
+
+.hero__wave-layer--front {
+  color: #f4fafb;
+  animation: waveDrift 9s linear infinite reverse;
+  opacity: 0.98;
+}
+
+@keyframes waveDrift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
 }
 
 .hero__grid {
@@ -589,7 +631,7 @@ blockquote {
 
 .hero__frame {
   position: relative;
-  border-radius: 72px 18px 72px 18px;
+  border-radius: 120px 12px 120px 12px;
   overflow: hidden;
   min-height: clamp(280px, 52vw, 460px);
   border: 1px solid rgba(26, 60, 74, 0.08);
