@@ -127,7 +127,7 @@
 
   // Scroll reveals
   const revealNodes = document.querySelectorAll(
-    ".offer__copy, .deal-card, .product-card, .why-grid li, .steps li, .proof-marquee, .faq-item, .finale__panel"
+    ".offer__copy, .deal-card, .product-card, .why-grid li, .steps li, .proof-marquee, .faq-item, .founder__visual, .founder__copy, .finale__panel"
   );
   revealNodes.forEach((el) => el.classList.add("reveal"));
 

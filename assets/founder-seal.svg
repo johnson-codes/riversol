@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" fill="none">
+  <circle cx="80" cy="80" r="72" stroke="#5a7178" stroke-width="1" stroke-dasharray="2.5 3.5"/>
+  <circle cx="80" cy="80" r="62" stroke="#5a7178" stroke-width="0.6" opacity="0.45"/>
+  <defs>
+    <path id="sealArc" d="M28 92 A52 52 0 1 1 132 92"/>
+  </defs>
+  <text fill="#5a7178" font-family="Manrope, Segoe UI, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.22em">
+    <textPath href="#sealArc" startOffset="50%" text-anchor="middle">DEVELOPED BY</textPath>
+  </text>
+  <text x="80" y="88" text-anchor="middle" fill="#0d2a32" font-family="Segoe Script, Apple Chancery, cursive" font-size="22" font-style="italic">Dr. Rivers</text>
+</svg>
