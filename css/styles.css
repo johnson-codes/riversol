@@ -159,6 +159,19 @@ blockquote {
   text-transform: uppercase;
 }
 
+.hero__eyebrow {
+  margin-bottom: 1.15rem;
+  padding: 0.5rem 1rem 0.5rem 0.8rem;
+  border-color: rgba(0, 92, 105, 0.2);
+  background: linear-gradient(180deg, #e8f7f9 0%, #d4eef2 100%);
+  box-shadow:
+    0 8px 22px rgba(0, 59, 73, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  color: var(--teal-deep);
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+}
+
 .eyebrow::before,
 .hero__eyebrow::before {
   content: "";
@@ -168,6 +181,24 @@ blockquote {
   background: var(--teal-mid);
   box-shadow: 0 0 0 4px rgba(0, 92, 105, 0.12);
   flex-shrink: 0;
+}
+
+.hero__eyebrow::before {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--teal-mid);
+  box-shadow: 0 0 0 5px rgba(0, 92, 105, 0.16);
+  animation: salePulse 2.4s var(--ease) infinite;
+}
+
+@keyframes salePulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 5px rgba(0, 92, 105, 0.16);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(0, 92, 105, 0.08);
+  }
 }
 
 .section-head--center .eyebrow {
